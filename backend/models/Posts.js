@@ -1,3 +1,4 @@
+
 //these arguments are handeled by sequelize
 module.exports = (sequelize, DataTypes) => {
 
