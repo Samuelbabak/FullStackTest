@@ -1,11 +1,13 @@
 // instance of the frame work
 const express = require('express');
+const cors = require("cors");
 
 // instance of express
 // allows you to make api requests and start servers
 const app = express();
 //this allows for app to parse json objects
 app.use(express.json());
+app.use(cors())
 
 const serverPort = 3001;
 const db = require('./models');
